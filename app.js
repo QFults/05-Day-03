@@ -34,26 +34,47 @@
 
 // user1.printInfo()
 
-class User {
-  constructor (name, username, email, password) {
-    this.name = name
-    this.username = username
-    this.email = email
-    this.password = password
-    this.level = 'standard user'
-  }
+// class User {
+//   constructor (name, username, email, password) {
+//     this.name = name
+//     this.username = username
+//     this.email = email
+//     this.password = password
+//     this.level = 'standard user'
+//   }
 
-  printInfo () {
-    console.log(`
-      Name: ${this.name}
-      Username: ${this.username}
-      Email: ${this.email}
-      Password: ${this.password}
-      Level: ${this.level}
-    `)
-  }
-}
+//   printInfo () {
+//     console.log(`
+//       Name: ${this.name}
+//       Username: ${this.username}
+//       Email: ${this.email}
+//       Password: ${this.password}
+//       Level: ${this.level}
+//     `)
+//   }
+// }
 
-const user1 = new User('John Doe', 'johndoe', 'johndoe@gmail.com', 'password1234')
+// const user1 = new User('John Doe', 'johndoe', 'johndoe@gmail.com', 'password1234')
 
-user1.printInfo()
+// user1.printInfo()
+
+// const user = (name, username, email, password) => ({
+//   name,
+//   username,
+//   email,
+//   password,
+//   level: 'standard user',
+//   printInfo () {
+//     console.log(`
+//       Name: ${this.name}
+//       Username: ${this.username}
+//       Email: ${this.email}
+//       Password: ${this.password}
+//       Level: ${this.level}
+//     `)
+//   }
+// })
+
+// const user1 = user('John Doe', 'johndoe', 'johndoe@gmail.com', 'password1234')
+
+// user1.printInfo()
